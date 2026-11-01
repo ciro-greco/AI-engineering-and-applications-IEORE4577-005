@@ -1,6 +1,6 @@
 # AI Engineering: An Annotated, Living Bibliography
 
-**For:** AI Engineering Apps, IEOR 4574E001, Columbia University, 2026<br>
+**For:** AI Engineering Apps, IEOR E4577 section 005, Columbia University, 2026<br>
 **Compiled:** 2026-08-02. Consolidated and reconciled with the three course introductions on 2026-10-25.<br>
 **Scope:** Building applications with foundation models: model and inference choices, evaluation, context and retrieval, agents, production reliability, safety, and product/business judgment.
 
@@ -16,9 +16,9 @@ The date beside a paper or book is its publication date. When a living source wa
 
 This file is the **student consultation layer**: it identifies the most useful source for each question, explains what that source can and cannot establish, and provides a realistic reading path. The three course introductions are the **complete citation ledgers** for their subjects:
 
-- [Post-training: reading paths and annotated bibliography](02-models-and-LLMOps/post-training/intro-to-post-training.md#16-reading-paths-and-annotated-bibliography)
-- [Evaluation: reading paths and annotated bibliography](03-evaluation/intro-to-evals.md#14-reading-paths-and-annotated-bibliography)
-- [Inference: reading paths and annotated bibliography](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md#17-reading-paths-and-annotated-bibliography)
+- Post-training: reading paths and annotated bibliography
+- Evaluation: reading paths and annotated bibliography
+- Inference: reading paths and annotated bibliography
 
 Together, the four files cover the sources used by the course. This bibliography deliberately does not duplicate every narrow citation, provider subpage, historical price, job posting, or secondary market report from the ledgers. A student looking for an explanation or design decision should start here; a student auditing a numerical claim should follow the relevant introduction to the cited table, figure, documentation version, or calculation.
 
@@ -35,19 +35,19 @@ Together, the four files cover the sources used by the course. This bibliography
 
 | If the question is about… | Start in this file | Continue to the complete ledger |
 |---|---|---|
-| SFT, preference optimization, RLHF, DPO, RLVR, GRPO, reasoning training | §2.1 | [Post-training §16.2 A–D](02-models-and-LLMOps/post-training/intro-to-post-training.md#162-annotated-bibliography) |
-| Distillation, model merging, adaptation choices, or tuning failure modes | §2.1 | [Post-training §16.2 E–F](02-models-and-LLMOps/post-training/intro-to-post-training.md#e-distillation-and-merging) |
-| LoRA, QLoRA, PEFT, or current tuning services | §§2.1–2.2 | [Post-training §16.2 G–H](02-models-and-LLMOps/post-training/intro-to-post-training.md#g-peft-and-tools) |
-| Training markets, contracts, output restrictions, licences, or the EU AI Act | §§2.2, 7, 8, 12.3 | [Post-training §16.2 I](02-models-and-LLMOps/post-training/intro-to-post-training.md#i-the-market-and-rules) |
-| Transformer inference, KV cache, batching, serving, precision, and compression | §3.1 | [Inference §17.2 A–C](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md#172-annotated-bibliography) |
-| Test-time compute, cost, caching, model selection, routing, and deployment | §§3.1–3.2 | [Inference §17.2 D–G](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md#d-test-time-compute) |
-| Reliability, operations, hardware, or performance benchmarks | §§3.1–3.2, 7 | [Inference §17.2 H–I](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md#h-reliability-and-operations) |
-| Current models, prices, quotas, billing, or Google Cloud behavior | §§3.2, 10.1 | [Inference §17.2 K](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md#k-the-course-stack-google-cloud-documentation) |
-| Error analysis, eval design, criteria, and the debate over offline evals | §4.1 | [Evaluation §14.2 A–C](03-evaluation/intro-to-evals.md#142-annotated-bibliography) |
-| Benchmark validity, contamination, leaderboards, or LLM judges | §4.1 | [Evaluation §14.2 D–E](03-evaluation/intro-to-evals.md#d-benchmarks-leaderboards-and-how-they-fail) |
-| Agreement, confidence intervals, sample sizes, paired tests, or pass^k | §4.1 | [Evaluation §14.2 F](03-evaluation/intro-to-evals.md#f-statistics-for-evals) |
-| Agent trajectories, production monitoring, reward hacking, factuality, or red teaming | §§4.1–4.2, 7 | [Evaluation §14.2 G–H](03-evaluation/intro-to-evals.md#g-agents-and-multi-turn-evaluation) |
-| Evaluation platforms, open-source tools, standards, and vendor longevity | §4.2 | [Evaluation §14.2 I–K](03-evaluation/intro-to-evals.md#i-tooling-the-google-cloud-stack) |
+| SFT, preference optimization, RLHF, DPO, RLVR, GRPO, reasoning training | §2.1 | Post-training §16.2 A–D |
+| Distillation, model merging, adaptation choices, or tuning failure modes | §2.1 | Post-training §16.2 E–F |
+| LoRA, QLoRA, PEFT, or current tuning services | §§2.1–2.2 | Post-training §16.2 G–H |
+| Training markets, contracts, output restrictions, licences, or the EU AI Act | §§2.2, 7, 8, 12.3 | Post-training §16.2 I |
+| Transformer inference, KV cache, batching, serving, precision, and compression | §3.1 | Inference §17.2 A–C |
+| Test-time compute, cost, caching, model selection, routing, and deployment | §§3.1–3.2 | Inference §17.2 D–G |
+| Reliability, operations, hardware, or performance benchmarks | §§3.1–3.2, 7 | Inference §17.2 H–I |
+| Current models, prices, quotas, billing, or Google Cloud behavior | §§3.2, 10.1 | Inference §17.2 K |
+| Error analysis, eval design, criteria, and the debate over offline evals | §4.1 | Evaluation §14.2 A–C |
+| Benchmark validity, contamination, leaderboards, or LLM judges | §4.1 | Evaluation §14.2 D–E |
+| Agreement, confidence intervals, sample sizes, paired tests, or pass^k | §4.1 | Evaluation §14.2 F |
+| Agent trajectories, production monitoring, reward hacking, factuality, or red teaming | §§4.1–4.2, 7 | Evaluation §14.2 G–H |
+| Evaluation platforms, open-source tools, standards, and vendor longevity | §4.2 | Evaluation §14.2 I–K |
 | Retrieval, context engineering, memory, agents, security, or product discovery | §§5–8 | Those sections are already the canonical bibliography; follow their primary links and the relevant course chapter |
 
 This is deliberately an *AI engineering* bibliography, not a general AI bibliography. It favors resources that help answer concrete questions:
@@ -140,7 +140,7 @@ These are not all assigned readings. They form the intellectual spine behind Ses
 
 ### 2.1 Post-training: a consultation map
 
-Read [the post-training introduction](02-models-and-LLMOps/post-training/intro-to-post-training.md) before using this list. Its §16 is the complete annotated source ledger, including model reports, provider services, licences, market evidence, and the sources behind each numerical example. The table below is the smaller set students should be able to navigate.
+Read the post-training introduction before using this list. Its §16 is the complete annotated source ledger, including model reports, provider services, licences, market evidence, and the sources behind each numerical example. The table below is the smaller set students should be able to navigate.
 
 | Question | Start with | What it establishes; limitation |
 |---|---|---|
@@ -206,7 +206,7 @@ The practical unit of model choice is a measured Pareto frontier on the applicat
 
 ### 3.1 Inference: a consultation map
 
-The [inference introduction](04-retrieval-and-LLMOps/inference-and-llmops/intro-to-inference.md) §17 is the complete source ledger. Use this map to choose what to read first.
+The inference introduction §17 is the complete source ledger. Use this map to choose what to read first.
 
 | Decision or concept | Best starting sources | Consultation note |
 |---|---|---|
@@ -272,7 +272,7 @@ Public benchmarks help orient model choice; they do not establish that an applic
 
 ### 4.1 Evaluation: a consultation map
 
-The [evaluation introduction](03-evaluation/intro-to-evals.md) §14 contains the complete annotated bibliography, including benchmark audits, statistical references, platform docs, tools, and the pro/anti-evals debate. This map is the practical starting point.
+The evaluation introduction §14 contains the complete annotated bibliography, including benchmark audits, statistical references, platform docs, tools, and the pro/anti-evals debate. This map is the practical starting point.
 
 | Evaluation job | Start with | What to take from it |
 |---|---|---|
@@ -283,7 +283,7 @@ The [evaluation introduction](03-evaluation/intro-to-evals.md) §14 contains the
 | Choose agreement measures | [Artstein and Poesio](https://aclanthology.org/J08-4004/) and the [alternative annotator test](https://arxiv.org/abs/2501.10970) | Agreement is not accuracy; kappa depends on prevalence and marginals. State the statistic, class distribution, uncertainty, and adjudication protocol. |
 | Put uncertainty around a rate | [Brown, Cai, and DasGupta](https://projecteuclid.org/journals/statistical-science/volume-16/issue-2/Interval-Estimation-for-a-Binomial-Proportion/10.1214/ss/1009213286.full), [Miller](https://arxiv.org/abs/2411.00640), and [Bowyer et al.](https://arxiv.org/abs/2503.01747) | Prefer Wilson or a justified Bayesian interval to a small-sample Wald interval. Separate a statistically detectable difference from a business-relevant or equivalently-small difference. |
 | Compare two systems on the same cases | [Dietterich](https://direct.mit.edu/neco/article/10/7/1895/6224/Approximate-Statistical-Tests-for-Comparing) and the evaluation chapter's paired-test procedure | Preserve item pairing; report the discordant cases and effect size. Do not apply an independent-samples test to paired model outputs. |
-| Size an eval set | The [evaluation introduction](03-evaluation/intro-to-evals.md), §§7.2–7.5, plus the statistical references above | Choose the minimum effect, power, baseline rate, pairing/disagreement assumptions, slices, and acceptable uncertainty before collecting examples. There is no context-free sample-size rule. |
+| Size an eval set | The evaluation introduction, §§7.2–7.5, plus the statistical references above | Choose the minimum effect, power, baseline rate, pairing/disagreement assumptions, slices, and acceptable uncertainty before collecting examples. There is no context-free sample-size rule. |
 | Evaluate retrieval and factuality | [Ragas](https://arxiv.org/abs/2309.15217), [ARES](https://arxiv.org/abs/2311.09476), [FActScore](https://arxiv.org/abs/2305.14251), and [SimpleQA](https://arxiv.org/abs/2411.04368) | Retrieval, groundedness, atomic factual precision, and abstention. Calibrate automated graders against human judgements in the target domain. |
 | Evaluate a tool-using conversational agent | [τ-bench](https://arxiv.org/abs/2406.12045), [τ²-bench](https://arxiv.org/abs/2506.07982), and [BFCL](https://proceedings.mlr.press/v267/patil25a.html) | Final state, policy adherence, user/agent actions, repeated-run reliability, and function-call correctness. A benchmark score is not a substitute for the application's own environment. |
 | Evaluate coding agents | [SWE-bench](https://arxiv.org/abs/2310.06770), the [SWE-bench Verified audit](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/), and [SWE-bench Pro](https://arxiv.org/abs/2509.16941) | Execution grading, task-quality audits, contamination, and benchmark retirement. A benchmark can become less informative as agents and training data change. |

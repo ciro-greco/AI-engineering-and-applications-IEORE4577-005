@@ -1,6 +1,6 @@
 # Course Syllabus
 
-## AI Engineering Apps, IEOR 4574E001
+## AI Engineering Apps, IEOR E4577 section 005
 
 Columbia University, 2026 edition.
 
@@ -84,8 +84,8 @@ Full step-by-step instructions are in the Week 1 README.
 
 ```bash
 # Clone the course repository
-git clone <TBD>
-cd <TBD>
+git clone https://github.com/ciro-greco/AI-engineering-and-applications-IEORE4577-005.git
+cd AI-engineering-and-applications-IEORE4577-005
 
 # Create and activate a virtual environment
 python3 -m venv .venv
@@ -115,15 +115,15 @@ cannot get access working before Week 2, pair with a teammate who can and come t
 ## Course Schedule
 
 
-| Lesson   | Title                              | Date & Time |
-| -------- | ---------------------------------- | ----------- |
-| Lesson 1 | Introduction to AI engineering     | TBD         |
-| Lesson 2 | Models and inference               | TBD         |
-| Lesson 3 | Evaluation                         | TBD         |
-| Lesson 4 | Context and retrieval              | TBD         |
-| Lesson 5 | Agents                             | TBD         |
-| Lesson 6 | Building a business on AI products | TBD         |
-| Lesson 7 | Demo Day (final class)*            | TBD         |
+| Lesson   | Title                              | Date & Time                     |
+| -------- | ---------------------------------- | ------------------------------- |
+| Lesson 1 | Introduction to AI engineering     | Sat Oct 31, 11:00 AM to 1:30 PM |
+| Lesson 2 | Models and inference               | Sat Nov 7, 11:00 AM to 1:30 PM |
+| Lesson 3 | Evaluation                         | Sat Nov 14, 11:00 AM to 1:30 PM |
+| Lesson 4 | Context and retrieval              | Sat Nov 21, 11:00 AM to 1:30 PM |
+| Lesson 5 | Agents                             | Fri Dec 4, 1:00 to 3:30 PM |
+| Lesson 6 | Building a business on AI products | Sat Dec 5, 11:00 AM to 1:30 PM |
+| Lesson 7 | Demo Day (final class)*            | Sat Dec 12, 11:00 AM to 1:30 PM |
 
 \* *Live team demos and presentations. Presentation length determined by the final number of teams.*
 
@@ -158,10 +158,10 @@ Create your GitHub repository and add every team member and the instructors as c
 
 ## Week 2: Project proposal
 
-**One page**, submitted by the end of the week.
+**Two to three pages at most**, submitted by the end of the week.
 
-The required structure (nine sections, with the length expected for each) is in
-[`00-housekeeping-items/PROPOSAL-TEMPLATE.md`](00-housekeeping-items/PROPOSAL-TEMPLATE.md). Follow it in order.
+The required structure (seven sections, with the length expected for each) is in
+[`capstone_proposal_template.md`](capstone_proposal_template.md). Follow it in order.
 
 Your idea will have a weight in the final grade. If your idea needs reshaping, you and the instructor work it out
 between Weeks 2 and 3. **By the end of Week 3 every team has a project it can build.**
@@ -186,7 +186,7 @@ Being behind at Week 5 does not affect your grade. It does leave the instructors
 ## Week 7: Final submission and Demo Day
 
 Your deliverables are due on Demo Day. What to submit and how is in
-[`capstone-submission-instructions.md`](capstone-submission-instructions.md).
+[`capstone_submission_instructions.md`](capstone_submission_instructions.md).
 
 ### On the day
 
