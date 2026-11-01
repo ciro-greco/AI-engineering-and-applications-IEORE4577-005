@@ -118,11 +118,11 @@ cannot get access working before Week 2, pair with a teammate who can and come t
 | Lesson   | Title                              | Date & Time                     |
 | -------- | ---------------------------------- | ------------------------------- |
 | Lesson 1 | Introduction to AI engineering     | Sat Oct 31, 11:00 AM to 1:30 PM |
-| Lesson 2 | Models and inference               | Sat Nov 7, 11:00 AM to 1:30 PM |
+| Lesson 2 | Models and inference               | Sat Nov 7, 11:00 AM to 1:30 PM  |
 | Lesson 3 | Evaluation                         | Sat Nov 14, 11:00 AM to 1:30 PM |
 | Lesson 4 | Context and retrieval              | Sat Nov 21, 11:00 AM to 1:30 PM |
-| Lesson 5 | Agents                             | Fri Dec 4, 1:00 to 3:30 PM |
-| Lesson 6 | Building a business on AI products | Sat Dec 5, 11:00 AM to 1:30 PM |
+| Lesson 5 | Agents                             | Sat Dec 5, 11:00 AM to 1:30 PM  |
+| Lesson 6 | Building a business on AI products | Fri Dec 11 TBC                  |
 | Lesson 7 | Demo Day (final class)*            | Sat Dec 12, 11:00 AM to 1:30 PM |
 
 \* *Live team demos and presentations. Presentation length determined by the final number of teams.*
