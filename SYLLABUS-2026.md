@@ -55,9 +55,6 @@ Some lectures use a running example: an agent that handles ecommerce returns. It
 
 **Prerequisites:** undergraduate-level understanding of probability, linear algebra, and Python programming.
 
-### What you need
-
-You only need a laptop. No GPU is required: models are accessed through hosted APIs.
 
 ### Week 1: Environment Setup
 
