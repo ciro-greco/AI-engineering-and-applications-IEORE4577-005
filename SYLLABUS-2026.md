@@ -7,11 +7,11 @@ Columbia University, 2026 edition.
 **Instructor:** Ciro Greco
 
 **Contact:** [cg3631@columbia.edu](mailto:cg3631@columbia.edu)
-**Github handle: **ciro-greco
+**GitHub handle:** ciro-greco
 
-**Teaching assistant: **Vinod Badrinarayanan
-**Contact: **[vb2680@columbia.edu](mailto:vb2680@columbia.edu)
-**Github handle: **thevoid12
+**Teaching assistant:** Vinod Badrinarayanan
+**Contact:** [vb2680@columbia.edu](mailto:vb2680@columbia.edu)
+**GitHub handle:** thevoid12
 
 ---
 
@@ -78,37 +78,8 @@ from Week 2 onward.
 6. Run the provided setup script. It makes one real model call and prints the response
 7. Once your team has formed, create the team repository and add all members plus the instructors as collaborators
 
-Full step-by-step instructions are in the Week 1 README.
-
-### Quick Start
-
-```bash
-# Clone the course repository
-git clone https://github.com/ciro-greco/AI-engineering-and-applications-IEORE4577-005.git
-cd AI-engineering-and-applications-IEORE4577-005
-
-# Create and activate a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# Create requirements.txt and install it. The package list is in the Week 1 README
-pip install -r requirements.txt
-
-# Authenticate with Google Cloud and point the SDK at Vertex AI
-gcloud auth application-default login
-gcloud config set project <YOUR-PROJECT-ID>
-gcloud services enable aiplatform.googleapis.com
-
-export GOOGLE_CLOUD_PROJECT=<YOUR-PROJECT-ID>
-export GOOGLE_CLOUD_LOCATION=us-central1
-export GOOGLE_GENAI_USE_VERTEXAI=True
-
-# Test your setup. This makes one real API call
-python 01-introduction-to-ai-engineering/test_setup.py
-```
-
-**The setup passes when the script prints a model response.** Not when your environment is perfect. If you
-cannot get access working before Week 2, pair with a teammate who can and come to office hours.
+Step-by-step instructions are covered in Week 1. If you cannot get access working before Week 2, pair with
+a teammate who can and come to office hours.
 
 ---
 
@@ -202,6 +173,6 @@ The demo must run end to end, from the code in your repository.
 | ------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **10%** | Idea                                 | Does it solve a problem worth solving? Does it have potential for a business application?                                                                                                                                                                                                                                               |
 | **30%** | Functionality and reliability        | Does it solve the problem you stated? Does it run repeatably, from a clean checkout, on inputs it was not tuned against?                                                                                                                                                                                                                |
-| **30%** | Technical approach and rigor         | Two halves, scored evenly.**Design:** are your model choice, context design, retrieval, tool surface and cost decisions sound, and can you defend them? **Measurement:** is there a real eval set that represents the task rather than the happy path? Did measurement change a decision you made? Do you know where your system fails? |
+| **30%** | Technical approach and rigor         | Two halves, scored evenly. **Design:** are your model choice, context design, retrieval, tool surface and cost decisions sound, and can you defend them? **Measurement:** is there a real eval set that represents the task rather than the happy path? Did measurement change a decision you made? Do you know where your system fails? |
 | **20%** | Product thinking and user experience | Is there a clear user story? Is the scope right? Would the intended user actually use this? Is there a plausible account of who would pay for it?                                                                                                                                                                                       |
 | **10%** | Communication and teamwork           | Quality of the demo, deck and written materials. Evidence of collaborative work and clear ownership, git history included.                                                                                                                                                                                                              |
