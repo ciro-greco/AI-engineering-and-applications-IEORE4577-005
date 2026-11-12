@@ -57,14 +57,13 @@ Some lectures use a running example: an agent that handles ecommerce returns. It
 
 ### What you need
 
-A laptop. No GPU required. Models are accessed via API on Google Cloud (Vertex AI).
+You only need a laptop. No GPU is required: models are accessed through hosted APIs.
 
 ### Week 1: Environment Setup
 
 1. Create a GitHub account
 2. Install Python 3.11+ and Git
-3. Install the Google Cloud CLI (`gcloud`)
-4. Create a Google Cloud project and enable the Vertex AI API
+3. Get API access to a model provider (details in Week 1)
 
 We will go through setup together in Week 1.
 
