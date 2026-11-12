@@ -81,7 +81,7 @@ We will go through setup together in Week 1.
 
 \* *Live team demos and presentations. Presentation length determined by the final number of teams.*
 
-Guest speakers: TBD
+Guest speakers: Jacopo Tagliabue, NYU and Colleen Tartow, Capital One.
 
 ---
 
