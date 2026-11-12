@@ -202,7 +202,7 @@ The practical unit of model choice is a measured Pareto frontier on the applicat
 
 7. **Living: provider model cards, lifecycle notices, and pricing.**  
    [Agent Platform models](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions) · [Agent Platform pricing](https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing) · [Agent Platform release notes](https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes)
-   These are the operational source of truth for the course because students use Google Cloud credits. Do not copy a model matrix into slides without a retrieval date; model availability and retirement dates are part of the engineering problem.
+   These are the operational source of truth for which models are available and what they cost. Do not copy a model matrix into slides without a retrieval date; model availability and retirement dates are part of the engineering problem.
 
 ### 3.1 Inference: a consultation map
 
