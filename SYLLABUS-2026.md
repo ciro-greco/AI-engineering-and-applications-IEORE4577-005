@@ -57,29 +57,17 @@ Some lectures use a running example: an agent that handles ecommerce returns. It
 
 ### What you need
 
-Everything runs on a normal laptop. You do **not** need GPU hardware, and you will not download or train
-model weights. Every model in this course runs on somebody else's infrastructure and you reach it over an API.
-
-**The stack is Google Cloud.** You call hosted models through **Vertex AI** using the Google Gen AI Python
-SDK. Google Cloud credits are provided for the course, so there is no cost to you. What you install locally is
-Python, Git, the Google Cloud CLI, and a short list of client libraries. No PyTorch, no CUDA, no local
-inference.
-
-You will need a GitHub account. The capstone is submitted as a repository, and your team's work lives there
-from Week 2 onward.
+A laptop. No GPU required. Models are accessed via API on Google Cloud (Vertex AI); course credits are
+provided.
 
 ### Week 1: Environment Setup
 
-1. Set up a GitHub account
-2. Install Python 3.11 or later, and Git
+1. Create a GitHub account
+2. Install Python 3.11+ and Git
 3. Install the Google Cloud CLI (`gcloud`)
-4. Redeem your Google Cloud credits, select your course project, and enable the Vertex AI API
-5. Authenticate, then create a virtual environment and install the course requirements
-6. Run the provided setup script. It makes one real model call and prints the response
-7. Once your team has formed, create the team repository and add all members plus the instructors as collaborators
+4. Redeem your Google Cloud credits and enable the Vertex AI API on your project
 
-Step-by-step instructions are covered in Week 1. If you cannot get access working before Week 2, pair with
-a teammate who can and come to office hours.
+We will go through setup together in Week 1.
 
 ---
 
